@@ -1,0 +1,16 @@
+.skills {
+    grid-row: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.list {
+
+}
+
+.list__item {
+    font-size: 1.5rem;
+}

@@ -1,8 +1,11 @@
 // COLOR VARIABLES
-$color-primary: gold;
-
+$color-primary: #FFFFF0;
 
 // FONT VARIABLES
+$font-family: "Lato"; 
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #555;
+$font-standard: 2rem;
 
 
 // RESPONSIVE BREAKPOINTS
@@ -25,8 +28,22 @@ html {
     }
 
 body {
-    font-family: sans-serif;
-    color: $color-primary;
+    font-family: $font-family, sans-serif;
+    background-color: $color-primary;
     font-weight: 300;
     line-height: 1.6;
+
+    // display: grid;
+    // grid-template-columns: auto 80vw auto;
+}
+
+// Grid container
+
+.container {
+    // grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;  // Allow rows to be as tall as needed
+    // gap: 3rem;
+    padding: 2rem 8rem;
 }

@@ -1,0 +1,27 @@
+.experience {
+    grid-row: 3;
+}
+
+.section__title {
+    text-align: center;
+}
+
+.job__experience {
+    font-size: $font-standard;
+}
+
+.company {
+    font-size: $font-standard;
+}
+
+.job__title {
+    font-size: $font-standard;
+}
+
+.list__item {
+    font-size: $font-standard;
+}
+
+.list__item:last-child {
+    margin-bottom: 3rem;
+}
