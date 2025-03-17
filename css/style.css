@@ -8,6 +8,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: "Lato", sans-serif;
@@ -46,7 +49,8 @@ body {
   text-align: left;
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  color: #555; }
 
 .skills {
   grid-row: 2;
@@ -78,6 +82,14 @@ body {
 
 .list__item:last-child {
   margin-bottom: 3rem; }
+
+@media print {
+  .page1 {
+    page-break-after: always;
+    /* Ends this section with a page break */ }
+  .page2 {
+    page-break-before: always;
+    /* Starts this section on a new page */ } }
 
 .education {
   grid-row: 4; }

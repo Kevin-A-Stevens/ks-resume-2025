@@ -25,3 +25,14 @@
 .list__item:last-child {
     margin-bottom: 3rem;
 }
+
+@media print {
+    .page1 {
+      page-break-after: always; /* Ends this section with a page break */
+    }
+  
+    .page2 {
+      page-break-before: always; /* Starts this section on a new page */
+    }
+  }
+
